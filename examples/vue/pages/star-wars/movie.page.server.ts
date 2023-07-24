@@ -1,4 +1,3 @@
-import fetch from 'node-fetch'
 import { MovieDetails } from './types'
 
 export { addPageContext }

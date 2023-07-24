@@ -1,4 +1,3 @@
-import fetch from 'node-fetch'
 import { filterMovieData } from './movie.page.server'
 import { Movie, MovieDetails } from './types'
 

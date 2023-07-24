@@ -9,7 +9,9 @@ const config: UserConfig = {
       include: [/\.vue$/, /\.md$/]
     }),
     md(),
-    ssr()
+    ssr({
+      prerender: false
+    })
   ],
   clearScreen: false
 }
